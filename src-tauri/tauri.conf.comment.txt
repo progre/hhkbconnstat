@@ -1,0 +1,14 @@
+"windows": [
+  {
+    "alwaysOnTop": true,
+    "center": true,
+    "title": "hhkbconnstat",
+    "width": 256,
+    "height": 256,
+    "resizable": false,
+    "fullscreen": false,
+    "decorations": false,
+    "transparent": true,
+    "skipTaskbar": true
+  }
+],
