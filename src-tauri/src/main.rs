@@ -43,10 +43,8 @@ fn watch_device(tray: SystemTrayHandle) {
         if is_hhkb_connected() {
             tray.set_icon(Icon::Raw(std::fs::read("icons/connected.ico").unwrap()))
                 .unwrap();
-            // window.hide().unwrap();
             sleep(Duration::from_secs(10));
         } else {
-            // window.show().unwrap();
             tray.set_icon(Icon::Raw(std::fs::read("icons/disconnected.ico").unwrap()))
                 .unwrap();
             sleep(Duration::from_millis(500));

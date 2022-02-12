@@ -1,1 +1,3 @@
 /node_modules
+/src-tauri/icons/connected.ico
+/src-tauri/icons/disconnected.ico
